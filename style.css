@@ -11,6 +11,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #474747;
+    font-size: 1.13rem;
 }
 
 a {
@@ -24,6 +26,7 @@ header {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     padding: 0px 0px 0px 200px;
+    margin: 10px;
 }
 
 .heding {
@@ -33,22 +36,25 @@ header {
 }
 
 .logo {
-    font-size: 40px;
     font-weight: 700;
 }
 
 .logo a {
     display: block;
     margin: 45px 0px;
+    font-size: 2.4rem;
+    font-weight: 800;
 }
 
 .logo a span {
     color: #FD6E0A;
+    font-size: 2.4rem;
 }
 
 header nav ul li {
     display: inline-block;
     padding: 0px 10px;
+    margin-left: 40px;
 }
 
 button {
@@ -58,7 +64,12 @@ button {
     padding: 16px 30px;
     border-radius: 10px;
     border: none;
-    font-size: 1.3rem 20.8px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+a button i {
+    color: #fff;
 }
 
 .hero {
