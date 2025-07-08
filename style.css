@@ -1,22 +1,23 @@
-
 .open-sans-ft {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
-*{
+
+* {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000;
 }
+
 header {
     background-color: #FFF8F3;
     background-image: url(assets/developer.png), url(assets/header_bg.png);
@@ -24,58 +25,66 @@ header {
     background-position: top left, bottom right;
     padding: 0px 0px 0px 200px;
 }
+
 .heding {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     font-size: 40px;
     font-weight: 700;
 }
-.logo a{
+
+.logo a {
     display: block;
     margin: 45px 0px;
 }
-.logo a span{
+
+.logo a span {
     color: #FD6E0A;
 }
+
 header nav ul li {
     display: inline-block;
     padding: 0px 10px;
 }
-button
-Specificity: (0,0,1)
- {
+
+button {
     background-color: #FD6E0A;
     color: #fff;
     font-weight: 700;
     padding: 16px 30px;
     border-radius: 10px;
     border: none;
-    font-size: 1.3rem
-20.8px
-;
+    font-size: 1.3rem 20.8px;
 }
+
 .hero {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
+
 nav {
     margin-right: 200px;
 }
-.hero-content{
+
+.hero-content {
     width: 37%;
     margin-top: 40px;
 }
+
 .hero-content h3 {
     font-size: 2.4rem;
     color: #474747;
 }
+
 .hero-content h1 {
     font-size: 4.4rem;
     margin: 40px 0;
 }
-.hero-content p{
+
+.hero-content p {
     margin-bottom: 20px;
 }
