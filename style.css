@@ -184,10 +184,22 @@ section#skills > p{
 .resume-left h2, .resume-right h2 {
     text-align: left;
     font-size: 1rem;
-    margin-bottom: 16px;
 }
 .resume-content h4 {
     font-size: 0.85rem;
     color: #000;
     margin-bottom: 30px;
+}
+.resume-content p {
+    font-size: 0.8rem;
+    margin: 20px 0px;
+    color: #757575;
+}
+.resume-content {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-top: 30px;
+}
+.resume-left .resume-content:last-child, .resume-right .resume-content:last-child{
+    border: none;
 }
