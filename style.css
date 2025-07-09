@@ -28,7 +28,10 @@
         padding: 0px 0px 0px 200px;
         margin: 10px;
     }
-    
+    Section p {
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
     .heding {
         display: flex;
         justify-content: space-between;
@@ -120,3 +123,52 @@
         padding: 170px;
         font-size: 18px;
     }
+    section#about p {
+    text-align: center;
+}
+.AboutMe {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+table td, table th {
+    padding: 0px 36px;
+    font-size: 0.8rem;
+}
+tbody{
+    margin-top: 10px;
+}
+table th{
+    font-weight: 600;
+}
+tbody tr{
+    font-weight: 700;
+}
+section#skills > p{
+   text-align: center;
+   color: #757575;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill {
+    padding: 40px 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 0px 10px;
+}
+.skill h4 {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.skill p {
+    font-size: 0.81rem;
+}
