@@ -219,7 +219,7 @@ footer {
     right: 0;
     margin: auto;
     margin-top: 130px;
-    max-width: 60%;
+    max-width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -232,8 +232,24 @@ footer {
     font-size: 2rem;
 }
 .footer-content .footer-left, .footer-content .footer-right {
-   width: 80%;
+   width: 48%;
 }
-.footer-right form input,.footer-right form textarea, .footer-right form a{ 
+.footer-right form input, .footer-right form textarea, .footer-right form a {
     display: block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 22px;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    font-size: 0.84rem;
+}
+.footer-right form input::placeholder, .footer-right form textarea::placeholder {
+    color: #474747;
+    font-size: 0.7rem;
+}
+.footer-right form textarea{
+  min-height: 100px; 
+  resize: vertical; 
+  overflow-y: auto;  
 }
