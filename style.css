@@ -203,3 +203,37 @@ section#skills > p{
 .resume-left .resume-content:last-child, .resume-right .resume-content:last-child{
     border: none;
 }
+.resume-content h3{
+    color: #757575;
+}
+section#resume > a{
+    text-align: center;
+    display: block;
+}
+footer {
+    
+    background-color: #FFF8F3;
+}
+.footer-content {
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 130px;
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 160px 0px 0px 20px;
+}
+.footer-content h2 {
+    margin-bottom: 40px;
+    color: #000;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.footer-content .footer-left, .footer-content .footer-right {
+   width: 80%;
+}
+.footer-right form input,.footer-right form textarea, .footer-right form a{ 
+    display: block;
+}
